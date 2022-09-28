@@ -160,7 +160,6 @@
 }
 
 .adcPromotion {
-  border: none;
   border-radius: 100px;
 
   background-color: rgb(169, 4, 83);
@@ -272,4 +271,15 @@
   margin-bottom: 60px;
 
   background-color: white;
+}
+
+.wallp {
+  background-image: url('../public/wallp.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin-top: -80px;
+
+  width: 100vw;
+  height: 100vh !important;
 }
