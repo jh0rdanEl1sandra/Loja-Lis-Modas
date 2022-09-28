@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <main>
       <Nav />
+      <div className={styles.wallpLis}></div>
       <div className={styles.wallp}></div>
     </main>
   );
