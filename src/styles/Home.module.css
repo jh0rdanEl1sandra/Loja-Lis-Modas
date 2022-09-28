@@ -275,22 +275,9 @@
 
 .wallp {
   background-image: url('../public/wallp.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
 
   margin-top: -80px;
 
   width: 100vw;
-  height: -100vh !important;
-}
-.wallpLis {
-  z-index: initial;
-  background-image: url('../public/WallpLis.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-
-  margin-top: -80px;
-
-  width: 100vw;
-  height: 100vh !important;
+  height: 100vh;
 }
