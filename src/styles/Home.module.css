@@ -12,6 +12,15 @@
   font-weight: 300;
 }
 
+.modInt {
+  font-family: Freestyle Script;
+  font-weight: 100;
+  font-size: large;
+  margin-top: 25px;
+  margin-left: -25px;
+  color: rgb(169, 4, 83);
+}
+
 .BTnav {
   display: flex;
   justify-content: space-between;

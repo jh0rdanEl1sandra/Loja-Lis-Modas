@@ -8,6 +8,7 @@ const Nav: NextPage = () => {
   return (
     <nav>
       <h1 className={styles.lis}>LiS</h1>
+      <p className={styles.modInt}>Moda Intima</p>
       <div className={styles.BTnav}>
         <button className={styles.btPag}>
           <Link href="../loja">Home</Link>
