@@ -1,0 +1,275 @@
+.lis {
+  font-family: freestyle Script;
+  color: rgb(169, 4, 83);
+  margin: 0 30px;
+  font-size: 40px;
+}
+.lg {
+  font-family: freestyle Script;
+  color: rgb(169, 4, 83);
+  margin: 0 30px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.BTnav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logo {
+  background-color: rgb(169, 4, 83);
+  height: 46px;
+  width: 46px;
+
+  margin: 25px;
+
+  border-radius: 50px;
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.473);
+}
+
+.btPag {
+  display: block;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+  font-family: Freestyle Script;
+  font-size: 20px;
+  width: 60px;
+  height: auto;
+  padding: 10px;
+}
+.btpag:hover {
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+
+  background-color: rgb(169, 4, 83);
+  color: white;
+
+  padding: 14px 10px;
+
+  font-family: Freestyle Script;
+  font-size: 20px;
+
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.473);
+}
+
+.btPagCont {
+  display: block;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+  font-family: Freestyle Script;
+  font-size: 20px;
+  width: 60px;
+  height: auto;
+  padding: 10px;
+}
+.ocultHover {
+  display: none;
+}
+.ocultHover p {
+  margin-top: 15px;
+}
+
+.btPagCont:hover div {
+  display: block;
+}
+
+.btPagCont:hover {
+  position: initial;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+
+  margin-top: 189px;
+
+  background-color: white;
+  color: rgb(169, 4, 83);
+
+  padding: 14px 10px;
+
+  font-family: Freestyle Script;
+  font-size: 19px;
+
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.173);
+}
+
+.btPagExt {
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+
+  background-color: rgb(169, 4, 83);
+  color: white;
+
+  width: 60px;
+
+  padding: 14px 10px;
+  margin: 5px;
+
+  font-family: Freestyle Script;
+  font-size: 20px;
+
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.473);
+}
+.btPagExt:hover {
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+
+  background-color: white;
+  color: rgb(169, 4, 83);
+
+  width: 60px;
+
+  padding: 14px 10px;
+  margin: 5px;
+
+  font-family: Freestyle Script;
+  font-size: 20px;
+  font-weight: 500;
+
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.473);
+}
+
+.container {
+  display: grid;
+
+  grid-template:
+    'a a a a a' 850px
+    'b c d e f' 40px;
+
+  max-width: 1200px;
+  min-width: 360px;
+  margin: 0 auto;
+
+  height: 83vh;
+}
+.contentPromotion {
+  grid-area: a;
+
+  height: 750px;
+
+  margin: 10px;
+
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.473);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 320px;
+}
+
+.adcPromotion {
+  border: none;
+  border-radius: 100px;
+
+  background-color: rgb(169, 4, 83);
+  color: white;
+
+  width: 120px;
+  height: 120px;
+
+  font-family: Freestyle Script;
+  font-size: 20px;
+  font-weight: 500;
+
+  border: 2px solid white;
+
+  box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.373);
+}
+.adcPromotion:hover {
+  border: none;
+  border-radius: 100px;
+
+  background-color: white;
+  color: rgb(169, 4, 83);
+
+  width: 120px;
+  height: 120px;
+
+  font-family: Freestyle Script;
+  font-size: 20px;
+  font-weight: 500;
+
+  box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.473);
+}
+.adcPromotion h1 {
+  margin: 0;
+  padding: 0;
+  margin-top: -30px;
+
+  font-weight: 900;
+  font-size: 90px;
+}
+.adcPromotion p {
+  margin: 0;
+  padding: 0;
+  margin-top: -30px;
+  font-size: large;
+  font-weight: 10;
+}
+
+.item {
+  width: 85px;
+  height: 25px;
+
+  margin: 0 auto;
+
+  border-radius: 25px;
+
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.473);
+  font-family: Freestyle Script;
+}
+.item:hover {
+  width: 85px;
+  height: 25px;
+
+  margin: 0 auto;
+
+  border-radius: 25px;
+
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.473);
+
+  font-family: Freestyle Script;
+}
+
+.b {
+  grid-area: b;
+}
+.c {
+  grid-area: c;
+}
+.d {
+  grid-area: d;
+}
+.e {
+  grid-area: e;
+}
+.f {
+  grid-area: f;
+}
+
+.bt-loj {
+  background-color: rgba(255, 255, 255, 0);
+
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+
+  font-family: Freestyle Script;
+  font-size: 20px;
+
+  width: 60px;
+}
+
+.chamada {
+  width: 320px;
+  min-height: 480px;
+
+  border-radius: 0px 15px;
+
+  margin: 15px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  background-color: white;
+}
